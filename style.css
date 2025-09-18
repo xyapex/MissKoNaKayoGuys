@@ -57,7 +57,7 @@ body {
 }
 
 .gif_container img {
-    max-width: 80%;   /* scales down on smaller screens */
+    max-width: 50%;   /* scales down on smaller screens */
     height: auto;     /* maintains proportions */
 }
 
@@ -99,6 +99,7 @@ body {
     }
 
 }
+
 
 
 
