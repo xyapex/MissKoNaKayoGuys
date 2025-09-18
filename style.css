@@ -8,12 +8,14 @@ body {
 
 #noButton {
     position: absolute;
+    top: 300px;   /* moves it down */
     margin-left: 150px;
     transition: 0.5s;
 }
 
 #yesButton {
     position: absolute;
+    top: 300px;   /* moves it down */
     margin-right: 150px;
 }
 
@@ -43,7 +45,7 @@ body {
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 40px 2px;
+    margin: 4px 2px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
@@ -95,6 +97,7 @@ body {
     }
 
 }
+
 
 
 
