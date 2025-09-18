@@ -14,17 +14,15 @@ body {
     margin-top: 30px; /* pushes buttons away from GIF */
 }
 
-
-#yesButton {
-    position: absolute;  /* instead of absolute */
-    margin-right: 20px;  /* adds space from "No" */
-}
-
 #noButton {
     position: absolute;
-    top: auto;       /* let JavaScript move it later */
-    margin-left: 20px;
+    margin-left: 150px;
     transition: 0.5s;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
 }
 
 .header_text {
