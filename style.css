@@ -16,7 +16,7 @@ body {
 
 
 #yesButton {
-    position: relative;  /* instead of absolute */
+    position: absolute;  /* instead of absolute */
     margin-right: 20px;  /* adds space from "No" */
 }
 
@@ -96,6 +96,7 @@ body {
     }
 
 }
+
 
 
 
