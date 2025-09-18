@@ -6,17 +6,23 @@ body {
     background-color: #F8C8DC;
 }
 
-#noButton {
-    position: absolute;
-    top: 300px;   /* moves it down */
-    margin-left: 150px;
-    transition: 0.5s;
+.buttons {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;
+    gap: 20px;                /* spacing between buttons */
+    margin-top: 20px;
 }
 
+/* Remove absolute positioning for yesButton */
 #yesButton {
+    position: relative; /* stays inside flexbox */
+}
+
+/* Keep absolute only for noButton since it moves */
+#noButton {
     position: absolute;
-    top: 600px;   /* moves it down */
-    margin-right: 150px;
+    transition: 0.5s;
 }
 
 .header_text {
@@ -27,15 +33,6 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 20px;
 }
 
 .btn {
@@ -97,6 +94,7 @@ body {
     }
 
 }
+
 
 
 
