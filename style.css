@@ -57,8 +57,9 @@ body {
 }
 
 .gif_container img {
-    max-width: 50%;   /* scales down on smaller screens */
-    height: auto;     /* maintains proportions */
+    width: 3000px;   /* set a fixed width */
+    height: auto;   /* keeps the aspect ratio */
+    max-width: 100%; /* makes sure it doesn’t overflow */
 }
 
 @media only screen and (max-width: 320px) and (max-height: 568px) {
@@ -99,6 +100,7 @@ body {
     }
 
 }
+
 
 
 
